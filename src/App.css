@@ -1,0 +1,107 @@
+
+.bookadd{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D8EFD3;
+    position: relative;
+    /* display: none; */
+   
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 65%;
+    border-radius: 5px;
+    background-color: #F1F8E8;
+    z-index: 100;
+    /* display: none; */
+    top: 10%;
+    position: absolute;
+    .inp{
+        border: 0px;
+        padding: 8px;
+        border-radius: 3px;
+       width: 100%;
+       background-color: #D8EFD3;
+    }
+    .ad{
+        border: 0px;
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #55AD9B;
+        /* justify-self: left; */
+    }
+  
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        
+        button{
+            width: 50%;
+            align-self: end;
+        }
+        .cancel{
+            border: 0px;
+            padding: 5px;
+            border-radius: 3px;
+            background-color: #55AD9B;
+            align-self: end;
+            width: 50%;
+            margin-top: 6px;
+        }
+    }
+}
+.inp:focus{
+    outline: none;
+}
+.po{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #D8EFD3;
+    opacity: 0.5;
+    top: 0%;
+    display: none;
+}
+.table{
+    width: 70vw;
+    
+    text-align: center;
+}
+.delete{
+    background-color: #55AD9B;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}
+.edit{
+    background-color: #55AD9B;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}
+.addd{
+    position: fixed;
+    bottom:10%;
+    right: 10%;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 50px;
+    border: 0px;
+    background-color: #55AD9B;
+    color: white;
+}
+.h1{
+    padding: 20px;
+}
+textarea{
+    height: 150px;
+}
